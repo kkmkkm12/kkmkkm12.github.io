@@ -1,0 +1,64 @@
+<html>
+<head>
+<script language = "javascript"> 
+//상위 셀렉트로 하위 셀렉트 제어하기
+function showSub(obj) {
+
+    f = document.forms.select_machine;
+
+    if(obj == 1) {
+    
+        f.SUB1.style.display = "";
+        f.SUB2.style.display = "none";
+
+    } else {
+
+        f.SUB1.style.display = "none";
+        f.SUB2.style.display = "";
+
+
+     }
+}
+</script>
+</head>
+
+<body>
+
+
+<form name="select_machine">
+
+<p>회사</p>
+<select name=" " onChange="showSub(this.options[this.selectedIndex].value);"> 
+<option value="1">현대</option> 
+<option value="2">기아</option> 
+</select>
+
+<br><br>
+
+<p>모델</p>
+<select name="SUB1" style="display: ;">
+<option value=" ">현대자동차</option>
+<option value=" ">제네시스</option>
+<option value=" ">소나타</option>
+<option value=" ">그렌져</option>
+<option value=" ">코나</option>
+<option value=" ">i30</option>
+<option value=" ">i40</option>
+<option value=" ">산타페</option>
+<option value=" ">투산</option>
+</select>
+
+
+<select name="SUB2" style="display: ;">
+<option value=" ">기아자동차</option>
+<option value=" ">카니발</option>
+<option value=" ">k9</option>
+<option value=" ">k7</option>
+</select>
+
+
+
+
+</form>
+</body>
+</html>
