@@ -1,0 +1,139 @@
+<!DOCTYPE html> <!-- rwd2.html -->
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<style>
+    table, tr, th, td {
+      border: 1px solid black;  border-collapse: collapse;
+    }</style>  
+    <style> .subject1{
+      background-color:#f16e32;/*수치계산 및 응용*/
+      color:#565656;
+      font-weight: bold;
+      }
+     .subject2{
+      background-color:#ecd02c;/*윈도우 프로그래밍*/
+      color:#565656;
+      font-weight: bold;
+      }
+     .subject3{
+      background-color:#89cc3b;/*알고리즘 및 실습*/
+      color:#565656;
+      font-weight: bold;
+      }
+     .subject4{
+      background-color:#35f8be;/*데이터 모데링*/
+      color:#565656;
+      font-weight: bold;
+      }
+     .subject5{
+      background-color:#61abff;/*JAVA 프로그래밍*/
+      color:#565656;
+      font-weight: bold;
+      }  
+     .subject6{
+      background-color:#ffa024; /*캠퍼스 멘토링*/
+      color:#565656;
+      font-weight: bold;
+      }
+     .subject7{
+      background-color:#bd23d1;/*화학2*/
+      color:#565656;
+      font-weight: bold;
+      }
+     table{
+      background-color:#f6fefe;
+      color:#565656;
+      font-weight: bold;
+      }
+     caption{
+        font-size: 1.5em;
+        color: orange;
+        font-weight: bold;
+      }
+	    h1{color:white;}
+            * { box-sizing:border-box; padding:0; margin:0; }
+            .row::after{ content:""; clear:both; display:table; }
+            [class*="col-"]{float:left; padding: 10px;}
+            .header, .footer{ background-color:black; color:white; padding:10px; }
+            .menu ul, .banner ul{list-style-type:none; }
+            .menu li, .banner li{background-color:black; color:white; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
+            .menu li:hover{background-color:white; color:black;}
+            .banner li{border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
+            .banner li img{width:30%; vertical-align:middle;}
+           [class*="col-"]{ width: 100%;}
+            @media only screen and (min-width:600px){           
+            .col-t-1{width:8.33%;}
+            .col-t-2{width:16.66%;}
+            .col-t-3{width:25%;}
+            .col-t-4{width:33.33%;}
+            .col-t-5{width:41.66%;}
+            .col-t-6{width:50%;}
+            .col-t-7{width:58.33%;}
+            .col-t-8{width:66.66%;}
+            .col-t-9{width:75%;}
+            .col-t-10{width:83.33%;}
+            .col-t-11{width:91.66%;}
+            .col-t-12{width:100%;}
+            } 
+            @media only screen and (min-width: 768px){            
+            .col-1{width:8.33%;}
+            .col-2{width:16.66%;}
+            .col-3{width:25%;}
+            .col-4{width:33.33%;}
+            .col-5{width:41.66%;}
+            .col-6{width:50%;}
+            .col-7{width:58.33%;}
+            .col-8{width:66.66%;}
+            .col-9{width:75%;}
+            .col-10{width:83.33%;}
+            .col-11{width:91.66%;}
+            .col-12{width:100%;}
+            }
+	    a:link{color:white; background-color:none; text-decoration:none;}
+            a:visited{color:white;}
+      a:hover{color:black; background-color:none; text-decoration:none;}
+
+        </style>
+        <title>E PORTFOLIO</title>
+    </head>
+    <body>
+        <header class="header"><a href="ePortfoliohome.html"><h1>E PORTFOLIO</h1></a></header>
+        <div class="row"></div>
+        <div id="main">
+            <nav class="col-3 col-t-3 menu">
+           <ul><li><a href="ePortfolioTime11.html">1학년 1학기</a></li><li><a href="ePortfolioTime12.html">1학년 2학기</a></li><li><a href="ePortfolioTime21.html">2학년 1학기</a></li><li><a href="ePortfolioTime22.html">2학년 2학기</a></li><li>3학년 1학기</li><li>3학년 2학기</li><li>4학년 1학기</li><li>4학년 2학기</li></ul>
+            </nav>
+            <section class="col-6 col-t-9">
+                <table width="470" height = "740">
+  <caption> &lt;2학년 2학기&gt; 시간표 <br/></caption>
+  <thead>
+    <tr height = "10" ><th width = "10"></th><th width = "90">월</th><th width = "90">화</th><th width = "90">수</th><th width = "90">목</th><th width = "90">금</th></tr>
+  </thead>
+  <tbody>
+    <tr height = "65" valign=top><td align=right>9</td><td rowspan="2" class="subject1">수치계산 및<br/>응용</td><td rowspan="2" class="subject3">알고리즘 및<br/>실습</td><td></td><td></td><td></td></tr>  <!-- 1 -->
+    <tr height = "65" valign=top><td align=right>10</td><td></td><td class="subject1">수치계산 및<br/>응용</td><td></td></tr>  <!-- 2 -->
+    <tr height = "65" valign=top><td align=right>11</td><td></td><td></td><td  rowspan="2" class="subject3">알고리즘 및<br/>실습</td><td class="subject4">데이터모델링</td><td rowspan="2" class="subject7">화학2</td></tr>  <!-- 3 -->
+    <tr height = "65" valign=top><td align=right>12</td><td></td><td></td><td></td></tr>  <!-- 4 -->
+    <tr height = "65" valign=top><td align=right>1</td><td></td><td></td><td rowspan="2" class="subject5">JAVA<br/>프로그래밍</td><td rowspan="2" class="subject5">JAVA<br/>프로그래밍</td><td></td></tr>  <!-- 5 -->
+    <tr height = "65" valign=top><td align=right>2</td><td rowspan="4" class="subject2">윈도우<br/>프로그래밍</td><td rowspan="2" class="subject4">데이터모델링</td><td></td></tr>  <!-- 6 -->
+    <tr height = "65" valign=top><td align=right>3</td><td></td><td class="subject6">캠퍼스멘토링</td><td></td></tr>  <!-- 7 -->
+    <tr height = "65" valign=top><td align=right>4</td><td></td><td></td><td></td><td></td></tr>  <!-- 8 -->
+    <tr height = "65" valign=top><td align=right>5</td><td></td><td></td><td></td><td></td></tr>  <!-- 9 -->
+  </tbody>
+  </table>
+                <picture>
+                    <source media="(min-width: 768px)" srcset="lob_big.png">
+                    <source media="(min-width: 600px)" srcset="lob_normal.png">
+                    
+                </picture>
+            </section>
+             <aside class="col-3 col-t-12 banner">
+                <ul><li><a href="https://www.dju.ac.kr/dju/main.do" target="_blank"><img src="대전대학교 마크.jpg"><figcaption>대전대학교</figcaption></a></li><li><img src="taegeuk.png">국적 : 한국</li></ul>
+            </aside>
+        </div>
+        <div class="row"></div>
+        <footer class="footer"><h4>Copyright 2022 Korea.</h4></footer>
+    </body>
+</html>
